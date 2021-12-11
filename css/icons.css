@@ -1,0 +1,21 @@
+/*
+ Aqui estoy utilizando un selector de atributo
+ 
+ [attr^=value]
+  Selecciona los elementos cuyo atributo attr tenga un valor prefijado  por value.
+ 
+[attr*=value]
+  Selecciona los elementos cuyo atributo attr tenga un valor que contenga value.
+*/
+[class^='icon-'], [class*=' icon-']{
+  border: solid 1px red;
+}
+
+.icon-home{
+  background-image: url(../icons/home.svg);
+  inline-size: 40px;
+  block-size: 40px;
+  background-size: cover;
+  display: inline-block;
+}
+

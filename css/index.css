@@ -4,6 +4,7 @@
 @import './font/AvenirLTStd-Black.otf';
 @import './font/AvenirLTStd-Book.otf';
 @import './font/AvenirLTStd-Roman.otf';
+@import '../css/icons.css';
 
 :root { 
   --primary: #00b050; 
@@ -28,6 +29,13 @@ body {
   color: var(--white);
   background-color: var(--primary);
   font: var(--headline1);
+}
+.icon-home{
+  background-image: url(../icons/home.svg);
+  inline-size: 40px;
+  block-size: 40px;
+  background-size: cover;
+  display: inline-block;
 }
 
 
